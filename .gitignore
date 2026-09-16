@@ -1,0 +1,46 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Raw/derived data and generated artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# Source archives and M5 files should remain local
+*.zip
+*.7z
+*.tar
+*.gz
+sales_train_*.csv
+sell_prices.csv
+calendar.csv
+sample_submission.csv
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

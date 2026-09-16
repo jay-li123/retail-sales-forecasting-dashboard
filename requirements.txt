@@ -1,0 +1,9 @@
+# Minimal project dependencies. Exact versions will be frozen after the
+# Milestone 2 environment and pipeline are verified together.
+numpy>=2.3,<3
+pandas>=3.0,<4
+pyarrow>=25,<26
+matplotlib>=3.11,<4
+lightgbm>=4.6,<5
+streamlit>=1.63,<2
+plotly>=6.9,<7
