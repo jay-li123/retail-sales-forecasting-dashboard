@@ -139,5 +139,3 @@ The ordered pipeline generates the Git-ignored inputs consumed by the dashboard.
 ## Tech Stack
 
 Python, pandas, NumPy, LightGBM, Streamlit, Matplotlib, Plotly, Parquet/PyArrow, Git, and `unittest`.
-
-Evidence-backed wording for portfolio use is available in [resume bullets](docs/resume_bullets.md).
