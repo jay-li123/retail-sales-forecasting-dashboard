@@ -1,5 +1,3 @@
-# Minimal project dependencies. Exact versions will be frozen after the
-# Milestone 2 environment and pipeline are verified together.
 numpy>=2.3,<3
 pandas>=3.0,<4
 pyarrow>=25,<26
